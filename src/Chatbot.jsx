@@ -6,7 +6,7 @@ import { askAI } from "./gemini.js";
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { role: "assistant", content: "Hey! I'm Zane's AI assistant. Ask me about his work, rates, or projects 👋" }
+    { role: "assistant", content: "Hey! I'm Suruthika's AI assistant. Ask me about his work, rates, or projects 👋" }
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -74,7 +74,7 @@ export default function Chatbot() {
           }}>
             <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "#c8f542", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem" }}>🤖</div>
             <div>
-              <div style={{ fontFamily: "'Space Mono', monospace", color: "#fff", fontSize: "0.85rem", fontWeight: 700 }}>Zane's Assistant</div>
+              <div style={{ fontFamily: "'Space Mono', monospace", color: "#fff", fontSize: "0.85rem", fontWeight: 700 }}>Suruthika's Assistant</div>
               <div style={{ color: "#c8f542", fontSize: "0.7rem", fontFamily: "'Space Mono', monospace" }}>● Online</div>
             </div>
           </div>

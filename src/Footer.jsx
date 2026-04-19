@@ -6,7 +6,7 @@ export default function Footer() {
       textAlign: "center",
       opacity: 0.6
     }}>
-      © 2026 Zane Mercer. All rights reserved.
+      © 2026 Suruthika. All rights reserved.
     </div>
   );
 }

@@ -30,7 +30,7 @@ export default function Navbar() {
       display: "flex", alignItems: "center", justifyContent: "space-between",
     }}>
       <span style={{ fontFamily: "'Space Mono', monospace", color: "#c8f542", fontSize: "1.1rem", letterSpacing: "-0.02em" }}>
-        zane.dev
+        suruthika.dev
       </span>
 
       {/* Desktop links */}

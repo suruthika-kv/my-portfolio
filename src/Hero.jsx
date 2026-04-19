@@ -59,7 +59,7 @@ export default function Hero() {
           letterSpacing: "-0.03em",
         }}>
           Hi, I'm<br />
-          <span style={{ color: "#c8f542" }}>Zane Mercer</span>
+          <span style={{ color: "#c8f542" }}>Suruthika</span>
         </h1>
 
         <div style={{ fontSize: "clamp(1rem, 2.5vw, 1.4rem)", color: "rgba(255,255,255,0.5)", fontFamily: "'Space Mono', monospace", marginBottom: "2.5rem", minHeight: "2rem" }}>

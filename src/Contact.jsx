@@ -101,7 +101,7 @@ export default function Contact() {
 
           {/* Contact info */}
           <div style={{ display: "flex", gap: "2rem", marginTop: "1.5rem", paddingTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.06)", flexWrap: "wrap" }}>
-            {[["📧", "zane@zanedev.in"], ["📍", "Chennai, India"], ["⚡", "Reply in 24h"]].map(([icon, text]) => (
+            {[["📧", "suru@surudev.in"], ["📍", "Chennai, India"], ["⚡", "Reply in 24h"]].map(([icon, text]) => (
               <span key={text} style={{ color: "rgba(255,255,255,0.4)", fontSize: "0.8rem", fontFamily: "'Space Mono', monospace" }}>
                 {icon} {text}
               </span>
