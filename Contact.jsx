@@ -1,6 +1,6 @@
 // src/components/Contact.jsx
 import { useState } from "react";
-import { saveMessage } from "../lib/firebase";
+import { saveMessage } from "./firebase";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });

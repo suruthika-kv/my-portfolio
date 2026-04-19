@@ -1,6 +1,6 @@
 // src/components/Chatbot.jsx
 import { useState, useRef, useEffect } from "react";
-import { askAI } from "../lib/gemini";
+import { askAI } from "./gemini";
 
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
