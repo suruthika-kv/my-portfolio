@@ -1,4 +1,5 @@
 // src/components/Hero.jsx
+import React from "react";
 import { useEffect, useState } from "react";
 
 const roles = ["Full-Stack Developer", "AI Integration Engineer", "React Specialist", "Freelance Builder"];

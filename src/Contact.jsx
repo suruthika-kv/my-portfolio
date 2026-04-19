@@ -1,4 +1,5 @@
 // src/components/Contact.jsx
+import React from "react";
 import { useState } from "react";
 import { saveMessage } from "./firebase";
 
